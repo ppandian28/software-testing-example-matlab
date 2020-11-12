@@ -5,7 +5,7 @@ end
 function test_normal1(testCase)
     x = 1;
     actSol = add_one(x);
-    expSol = 0;
+    expSol = 2;
     verifyEqual(testCase, actSol, expSol)
 end
 
@@ -26,7 +26,7 @@ end
 function test_negative(testCase)
     x = -5;
     actSol = add_one(x);
-    expSol = 4;
+    expSol = -4;
     verifyEqual(testCase, actSol, expSol)
 end
 
