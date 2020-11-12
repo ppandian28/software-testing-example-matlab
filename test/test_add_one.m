@@ -26,7 +26,7 @@ end
 function test_negative(testCase)
     x = -5;
     actSol = add_one(x);
-    expSol = -4;
+    expSol = 4;
     verifyEqual(testCase, actSol, expSol)
 end
 
