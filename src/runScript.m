@@ -11,5 +11,8 @@ plugin = TestReportPlugin.producingHTML(htmlFolder);
 pdfFile = 'MyTestReport.pdf';
 plugin = TestReportPlugin.producingPDF(pdfFile);
 
+docxFile = 'MyReport.docx';
+plugin = TestReportPlugin.producingDOCX(docxFile);
+
 runner.addPlugin(plugin);
 result = runner.run(suite);
